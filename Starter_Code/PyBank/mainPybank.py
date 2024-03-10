@@ -58,6 +58,8 @@ with open(financial_output_txt_file, "w") as file:
     file.write("Financial Analysis")
     file.write("\n")
 
+    file.write("-----------------------")
+
     file.write("Total Months: ")
     file.write(str(total_months))
     file.write("\n")
